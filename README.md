@@ -51,8 +51,3 @@ python main.py
 ## Contributing
 
 Contributions to improve the Dataset Maker tool are welcome! If you encounter any issues, have suggestions, or would like to add new features, please feel free to submit a pull request.
-
-## License
-
-Dataset Maker is licensed under the [MIT License](LICENSE).
-
