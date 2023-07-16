@@ -1,4 +1,4 @@
-import pygame
+import pygagime
 import json
 
 window_width = 800
