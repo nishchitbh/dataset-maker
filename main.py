@@ -2,7 +2,7 @@ import pygame
 import json
 
 
-window_width = 800gi
+window_width = 800
 window_height = 600
 units_per_division = 5  # Number of units per grid division
 grid_size = 10 * units_per_division  # Adjusted grid size based on units per division
@@ -47,6 +47,12 @@ def adjust_grid_size():
     global grid_size
     grid_size = 5 * units_per_division
 
+def clear_clicked_points():
+    global clicked_points
+    clicked_points = {}
+    with open("dataset.json", "w") as file:
+        json.dump(clicked_points, file)
+
 while running:
     clock.tick(60)  # Limit frame rate to 60 FPS
 
@@ -90,6 +96,9 @@ while running:
                 elif window_height - grid_size <= mouse_pos[1] <= window_height:
                     color_index = (mouse_pos[0] // grid_size) % len(color_options)
                     current_color = list(color_options.keys())[color_index]
+
+            if event.button == 3:  # Right mouse button clicked
+                clear_clicked_points()
 
     # Get the mouse position
     mouse_pos = pygame.mouse.get_pos()

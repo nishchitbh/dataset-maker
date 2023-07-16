@@ -9,6 +9,7 @@ Dataset Maker is a simple tool designed to assist machine learning developers in
 - Points are saved in a JSON file for easy retrieval.
 - Customize the grid size and units per division.
 - Choose from a variety of color options.
+- Clear all points with a single click.
 
 ## Requirements
 
