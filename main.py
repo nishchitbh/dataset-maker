@@ -1,8 +1,8 @@
-import pygagime
+import pygame
 import json
 
 
-window_width = 800
+window_width = 800gi
 window_height = 600
 units_per_division = 5  # Number of units per grid division
 grid_size = 10 * units_per_division  # Adjusted grid size based on units per division
