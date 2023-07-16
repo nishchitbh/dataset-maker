@@ -1,6 +1,7 @@
 import pygagime
 import json
 
+
 window_width = 800
 window_height = 600
 units_per_division = 5  # Number of units per grid division
