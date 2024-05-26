@@ -1,4 +1,7 @@
 # Dataset Maker
+Imagine you’re eager to implement a machine learning algorithm you’ve just learned. Your first step is to gather a dataset for this implementation. So, you visit websites like Kaggle to find a suitable dataset. However, you soon realize that the datasets available on Kaggle are too complex for the algorithm you’re working with. 
+
+This is where Dataset Maker comes in. Dataset Maker is a project designed to address this exact issue, providing simpler and more accessible datasets tailored for learning and implementing new algorithms.
 
 Dataset Maker is a simple tool designed to assist machine learning developers in creating demo datasets for their projects. It provides a graphical interface where you can click on a grid to mark points and assign them different colors. The clicked points are saved in a JSON file, which can be used as a dataset for training or testing machine learning models.
 
